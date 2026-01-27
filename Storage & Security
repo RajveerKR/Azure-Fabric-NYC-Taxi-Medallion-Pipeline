@@ -1,1 +1,5 @@
+## Storage & Security (Azure Portal)
+
+- Created an Azure Storage Account (ADLS Gen2) and a dedicated container to store raw NYC Taxi files.
+- Applied RBAC in Azure (least-privilege access) to control who can read/write to the container.
 
