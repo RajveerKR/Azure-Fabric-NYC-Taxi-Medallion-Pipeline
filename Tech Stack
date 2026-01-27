@@ -1,1 +1,8 @@
+## Tech Stack
+
+- Azure Data Lake Gen2 (secure raw data storage)
+- Azure Pipeline (data ingestion & orchestration)
+- Microsoft Fabric Lakehouse
+- Delta Lake & Medallion Architecture
+- Power BI (DAX, KPIs, slicers, trends)
 
