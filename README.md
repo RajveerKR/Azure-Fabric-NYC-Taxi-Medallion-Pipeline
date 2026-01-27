@@ -1,2 +1,3 @@
-# azure-fabric-nyc-taxi-medallion-pipeline
-End-to-end Azure–Microsoft Fabric data pipeline using ADLS Gen2, medallion architecture (Bronze/Silver/Gold), orchestration pipelines, and Power BI dashboards.
+# Azure Fabric NYC Taxi Medallion Pipeline
+End-to-end Azure–Microsoft Fabric analytics pipeline built using NYC Yellow Taxi data.  
+The project demonstrates secure data ingestion, medallion architecture (Bronze/Silver/Gold),pipeline orchestration, semantic modelling, and Power BI reporting.
