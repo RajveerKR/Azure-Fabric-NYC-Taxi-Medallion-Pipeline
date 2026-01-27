@@ -1,1 +1,5 @@
+## Automation (Event Trigger)
+
+- Configured a storage event trigger so that when new files land in the ADLS Gen2 container, the pipeline starts automatically.
+- This supports near real-time ingestion without manual runs.
 
