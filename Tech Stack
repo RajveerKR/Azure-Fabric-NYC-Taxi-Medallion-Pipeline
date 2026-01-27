@@ -1,8 +1,7 @@
 ## Tech Stack
 
-- Azure Data Lake Gen2 (secure raw data storage)
-- Azure Pipeline (data ingestion & orchestration)
-- Microsoft Fabric Lakehouse
-- Delta Lake & Medallion Architecture
-- Power BI (DAX, KPIs, slicers, trends)
+- Azure Storage Account (ADLS Gen2) + container (raw landing zone)
+- Event-based pipeline trigger (storage events) to support automated ingestion
+- Microsoft Fabric Lakehouse (Bronze/Silver/Gold)
+- Power BI (Direct Lake semantic model, DAX)
 
