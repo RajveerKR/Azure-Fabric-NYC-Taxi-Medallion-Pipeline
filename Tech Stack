@@ -1,7 +1,39 @@
 ## Tech Stack
 
-- Azure Storage Account (ADLS Gen2) + container (raw landing zone)
-- Event-based pipeline trigger (storage events) to support automated ingestion
-- Microsoft Fabric Lakehouse (Bronze/Silver/Gold)
-- Power BI (Direct Lake semantic model, DAX)
+## Tech Stack
+
+### Cloud & Data Platform
+- Azure Storage Account (ADLS Gen2)  
+  - Raw landing container for source data ingestion  
+  - Hierarchical namespace enabled for analytics workloads
+
+- Microsoft Fabric  
+  - Lakehouse implementation using Medallion Architecture  
+    - Bronze (raw ingestion)  
+    - Silver (cleaned and transformed data)  
+    - Gold (aggregated analytics-ready data)
+
+### Data Engineering & Automation
+- Microsoft Fabric Data Pipelines  
+  - Orchestrates end-to-end Bronze → Silver → Gold processing  
+  - Integrated notebook execution
+
+- Event-Based Triggering  
+  - Azure Blob Storage events (BlobCreated)  
+  - Event Grid used to enable automated pipeline execution on data arrival
+
+### Security & Identity
+- Microsoft Entra ID (Azure AD)  
+  - Authentication and access control
+
+- Role-Based Access Control (RBAC)  
+  - Storage Blob Data Contributor / Owner  
+  - Event Grid roles for trigger integration  
+  - Secure access to Fabric workspace resources
+
+### Analytics & Visualization
+- Power BI  
+  - Direct Lake semantic model  
+  - DAX-based measures and KPIs  
+  - Interactive dashboards for operational and performance insights
 
