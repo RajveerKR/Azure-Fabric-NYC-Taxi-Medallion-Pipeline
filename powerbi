@@ -1,0 +1,13 @@
+## Power BI Dashboard
+
+This folder contains assets related to the Power BI dashboard built on top of the Gold layer.
+
+### Dashboard Features
+- Total trips and revenue KPIs
+- Borough-level demand analysis
+- Daily and monthly trend analysis
+- Interactive date filtering
+
+### Data Source
+- Microsoft Fabric Lakehouse (Gold layer)
+- Direct Lake semantic model
